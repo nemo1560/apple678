@@ -65,7 +65,8 @@ body .row {
     position: relative;
     overflow: hidden; }
     .products .gallery .product .product-img {
-      border: 1px solid black; }
+      border: 1px solid black;
+      overflow: hidden; }
       .products .gallery .product .product-img img {
         width: auto;
         height: 60%; }
@@ -81,7 +82,7 @@ body .row {
       .products .gallery .product .product-name .features {
         position: absolute;
         top: 20%;
-        left: -20%;
+        left: -25%;
         color: black;
         transition: all .2s ease; }
     .products .gallery .product:hover .features {
@@ -131,6 +132,7 @@ body .row {
     height: 50px;
     width: 100%;
     background-color: black;
+    opacity: .7;
     z-index: 1;
     position: relative; }
     .menu_hide .brand {
@@ -156,9 +158,9 @@ body .row {
         line-height: 40px; }
       .menu_hide .mobile-mneu .menu_child {
         position: relative;
-        left: -55px;
+        left: -80px;
         top: 0px;
-        width: 100px;
+        width: 150px;
         display: hide;
         list-style: none;
         background-color: black;
@@ -178,9 +180,12 @@ body .row {
     height: 300px;
     background-color: black; }
     .banner img {
-      display: table;
+      display: block;
       margin: auto;
-      margin-top: -10px; }
+      width: auto;
+      height: 60%;
+      margin-top: -10px;
+      padding-top: 50px; }
     .banner h4 {
       font-size: 20px;
       color: white;
@@ -202,10 +207,11 @@ body .row {
       position: relative;
       overflow: hidden; }
       .products .gallery .product .product-img {
-        border: 1px solid black; }
+        border: 1px solid black;
+        overflow: hidden; }
         .products .gallery .product .product-img img {
           width: auto;
-          height: 60%; }
+          height: 30%; }
         .products .gallery .product .product-img .detail {
           position: absolute;
           left: -20%;
@@ -214,13 +220,15 @@ body .row {
       .products .gallery .product .product-name {
         background: black;
         padding: 5 5 5 5;
-        color: white; }
+        color: white;
+        font-size: 12px; }
         .products .gallery .product .product-name .features {
           position: absolute;
           top: 20%;
-          left: -25%;
+          left: -40%;
           color: black;
-          transition: all .2s ease; }
+          transition: all .2s ease;
+          font-size: 12px; }
       .products .gallery .product:hover .features {
         left: 20%; }
   .accessories {
@@ -232,11 +240,12 @@ body .row {
         overflow: hidden; }
         .accessories .product .product-img img {
           width: auto;
-          height: 25%; }
+          height: 15%; }
       .accessories .product .product-name {
         background-color: gray;
         padding: 5 5 5 5;
-        color: white; }
+        color: white;
+        font-size: 12px; }
       .accessories .product:hover .product-img {
         box-shadow: 10px 40px 20px gray; }
   .services {
@@ -248,11 +257,12 @@ body .row {
         overflow: hidden; }
         .services .product .product-img img {
           width: auto;
-          height: 40%; }
+          height: 10%; }
       .services .product .product-name {
         background-color: black;
         padding: 5 5 5 5;
-        color: white; }
+        color: white;
+        font-size: 12px; }
       .services .product:hover .product-name {
         box-shadow: 5px 20px 20px gray; }
   .contact {
